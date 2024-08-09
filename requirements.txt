@@ -1,7 +1,8 @@
 setuptools>=58.0.0
 wheel>=0.36.0
 streamlit==1.37.1
+tensorflow==2.16.1  # or another version compatible with Streamlit Cloud
 joblib==1.2.0
-scikit-learn==1.0.2
+scikit-learn==1.1.1  # Use a version with a pre-built wheel available
 Pillow==8.4.0
-# TensorFlow not included; will rely on pre-installed version or use a supported version
+
